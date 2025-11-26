@@ -1,0 +1,102 @@
+/* .vscode/settings.json */
+{
+  // デフォルトのフォーマッターを指定
+  "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+  // Intelephenseの環境設定で、PHPのインクルードパスを指定
+  "intelephense.environment.includePaths": [
+    "../../plugins/"
+  ],
+  // PHPのスタブファイルを指定
+  "intelephense.stubs": [
+    "apache",
+    "bcmath",
+    "bz2",
+    "calendar",
+    "com_dotnet",
+    "Core",
+    "ctype",
+    "curl",
+    "date",
+    "dba",
+    "dom",
+    "enchant",
+    "exif",
+    "FFI",
+    "fileinfo",
+    "filter",
+    "fpm",
+    "ftp",
+    "gd",
+    "gettext",
+    "gmp",
+    "hash",
+    "iconv",
+    "imap",
+    "intl",
+    "json",
+    "ldap",
+    "libxml",
+    "mbstring",
+    "meta",
+    "mysqli",
+    "oci8",
+    "odbc",
+    "openssl",
+    "pcntl",
+    "pcre",
+    "PDO",
+    "pgsql",
+    "Phar",
+    "posix",
+    "pspell",
+    "readline",
+    "Reflection",
+    "session",
+    "shmop",
+    "SimpleXML",
+    "snmp",
+    "soap",
+    "sockets",
+    "sodium",
+    "SPL",
+    "sqlite3",
+    "standard",
+    "superglobals",
+    "sysvmsg",
+    "sysvsem",
+    "sysvshm",
+    "tidy",
+    "tokenizer",
+    "xml",
+    "xmlreader",
+    "xmlrpc",
+    "xmlwriter",
+    "xsl",
+    "Zend OPcache",
+    "zip",
+    "zlib",
+    "wordpress"
+  ],
+  // ファイル保存時に自動的にフォーマットを適用
+  "editor.formatOnSave": true,
+  // タブをスペースに変換
+  "editor.insertSpaces": true,
+  // 既存のインデント設定を検出しない（設定を強制）
+  "editor.detectIndentation": false,
+  // JSONC言語に対する設定
+  "[jsonc]": {
+    // JSONC用のフォーマッターを指定
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // PHP言語に対する設定
+  "[php]": {
+    // PHP用のフォーマッターをIntelephenseに固定
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    // PHPファイルでタブをスペースに変換
+    "editor.insertSpaces": true,
+    // タブサイズを2スペースに設定
+    "editor.tabSize": 2,
+    // フォーマットを有効化
+    "editor.formatOnSave": true
+  }
+}
